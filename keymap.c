@@ -25,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * | LShift(|   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |  ,<  |  .>  |  / ? | )RShift|
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   | RemD| PrnScrn| L1T | LGui | Alt |                                       | Alt  |  Ctrl | [ {  |  ] } | ; :  |
+ *   | RemD| PrnScrn| L1T | LGui | Alt |                                        | / ?  | ; :  | [ {  |  ] } | ; :  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
  *                                        | Del  |      |       |      | Del    |
@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TG(MDIA),       KC_Y,       KC_U,   KC_I,   KC_O,   KC_P,   KC_BSLASH,
                         KC_H,       KC_J,   KC_K,   KC_L,   KC_QUOT,KC_ENT,
         KC_RBRACKET,       KC_N,       KC_M,   KC_COMM,KC_DOT, KC_UP,  KC_RSPC,
-                                    KC_RALT,KC_RCTRL,  KC_LEFT,KC_DOWN,KC_RIGHT,
+                            KC_SLSH,KC_SCOLON,  KC_LEFT,KC_DOWN,KC_RIGHT,
         KC_SCOLON,        KC_DELT,
         KC_PGUP,
         KC_PGDN,        KC_APP,   KC_SPC
