@@ -1,7 +1,7 @@
 /*
  * Ergodox-EZ key layout roughly based on the Microsoft Natural Ergonomic Keyboard 4000 and optimized for Spacemacs.
  *
- * To build, launch bash and run make in this directory
+ * To build, launch bash and run 'make keymap=york' in keyboards/ergodox
  */
 
 #include "ergodox.h"
