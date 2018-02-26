@@ -216,3 +216,26 @@ void action_function(keyrecord_t *record, uint8_t id, uint8_t opt) {
 void matrix_init_user(void) {
     set_unicode_input_mode(UC_WINC);
 };
+
+// Runs constantly in the background, in a loop.
+void matrix_scan_user(void)
+{
+  uint8_t layer = biton32(layer_state);
+
+  ergodox_board_led_off();
+  ergodox_right_led_1_off();
+  ergodox_right_led_2_off();
+  ergodox_right_led_3_off();
+  switch (layer)
+  {
+    case 1:
+      ergodox_right_led_1_on();
+      break;
+    case 2:
+      ergodox_right_led_2_on();
+      break;
+    default:
+      // none
+      break;
+  }
+};
