@@ -1,3 +1,7 @@
+NOTICE: Layout now maintained through the [Ergodox EZ Configurator](https://configure.ergodox-ez.com/ergodox-ez/layouts/bvYNp/latest)
+
+-----
+
 # Ergodox EZ Keymap for the QMK Firmware
 
 Inspired by the Microsoft Natural Ergonomic Keyboard 4000
