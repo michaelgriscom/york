@@ -14,8 +14,7 @@ Instructions:
 
 ## License
 
-MIT (see [LICENSE](LICENSE)) for original work in this repository.
-`ergodox/york/keymap.c` was started from QMK's default ErgoDox keymap
-(GPL-2.0-or-later), and its `TAP_ONCE` macro and shrug macro come from
-algernon's ErgoDox layout (GPL-3.0-or-later). Those portions keep their GPL
-licenses, and any firmware built from this keymap is GPL because it links QMK.
+GPL-3.0-or-later (see [LICENSE](LICENSE)). `ergodox/york/keymap.c` was started
+from QMK's default ErgoDox keymap (GPL-2.0-or-later) and borrows its `TAP_ONCE`
+and shrug macros from algernon's ErgoDox layout (GPL-3.0-or-later), so GPLv3 or
+later is the license that covers the whole file.
