@@ -14,7 +14,5 @@ Instructions:
 
 ## License
 
-GPL-3.0-or-later (see [LICENSE](LICENSE)). `ergodox/york/keymap.c` was started
-from QMK's default ErgoDox keymap (GPL-2.0-or-later) and borrows its `TAP_ONCE`
-and shrug macros from algernon's ErgoDox layout (GPL-3.0-or-later), so GPLv3 or
-later is the license that covers the whole file.
+GPL-3.0-or-later. `keymap.c` is based on QMK's default ErgoDox keymap
+(GPL-2.0+) and uses macros from algernon's layout (GPL-3.0+).
